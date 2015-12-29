@@ -17,6 +17,7 @@ def testchan(h):
 		print (host, ' is down, trying to reconnect...')
 		os.system("poff -a")
 		os.system("pon dsl-provider")
+		sys.exit()
 		return True
 
 def helper():
